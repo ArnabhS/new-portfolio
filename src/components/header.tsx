@@ -15,7 +15,7 @@ const Header = () => {
   };
   return (
     <div className="border border-gray-300 dark:border-gray-900 rounded p-6 bg-white/50 dark:bg-[#0C0C0C] backdrop-blur-sm transition-colors duration-300">
-      <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+      <div className="flex flex-col sm:flex-row sm:items-center md:justify-between gap-4">
         <div className="flex items-center gap-4">
           <div className="w-16 h-16 bg-gray-200 dark:bg-gray-800 rounded-full flex items-center justify-center transition-colors duration-300">
             <img src={img}  className="w-full h-full rounded-full text-gray-600 dark:text-gray-400 object-cover" />
@@ -27,7 +27,7 @@ const Header = () => {
         </div>
         <button
           onClick={handleResumeDownload}
-          className="w-full sm:w-auto flex items-center justify-center gap-2 px-4 py-2 bg-red-600 hover:bg-red-700 dark:bg-red-500 dark:hover:bg-red-600 text-white rounded-lg transition-all duration-300 hover:shadow-lg hover:scale-105 group"
+          className="max-w-32 w-full sm:w-auto flex items-center justify-center gap-2 px-4 py-2 bg-red-600 hover:bg-red-700 dark:bg-red-500 dark:hover:bg-red-600 text-white rounded-lg transition-all duration-300 hover:shadow-lg hover:scale-105 group"
         >
           <Download className="w-4 h-4 group-hover:animate-bounce" />
           <span className="text-sm font-medium">Resume</span>
