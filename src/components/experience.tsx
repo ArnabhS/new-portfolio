@@ -36,7 +36,7 @@ const Experience = () => {
     <section>
       <h2 className="text-xl font-bold text-red-500 dark:text-red-400 mb-6 flex items-center">
         <span className="text-red-500 dark:text-red-400 mr-2">•</span>
-        worked at
+        experiences
       </h2>
       <div className="space-y-6">
         {experiences.map((exp, index) => (
