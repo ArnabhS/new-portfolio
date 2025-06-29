@@ -7,8 +7,8 @@ export function DotBackgroundDemo() {
         className={cn(
           "absolute inset-0",
           "[background-size:20px_20px]",
-          "[background-image:radial-gradient(#d4d4d4_1px,transparent_1px)]",
-          "dark:[background-image:radial-gradient(#404040_1px,transparent_1px)]",
+          "[background-image:radial-gradient(#6c736e_1px,transparent_1px)]",
+          "dark:[background-image:radial-gradient#a2a6a3_1px,transparent_1px)]",
         )}
       />
       {/* Radial gradient for the container to give a faded look */}
