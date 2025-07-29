@@ -13,12 +13,12 @@ const Projects = () => {
       }
     },
     {
-      title: "Warline News",
-      description: "Developed a MERN-stack web app to counter misinformation during the India-Pakistan conflict using Gemini API.Integrated AI agents to filter and display verified news from trusted sources, reducing misinformation spread.Implemented a real-time red zone heatmap using Google Maps and AI analysis of regional risk data.",
+      title: "ScholarAI",
+      description: "Built an AI-powered research assistant using LangChain.js, Gemini API, and Node.js, enabling multi-agent orchestration for paper search, summarization, critique, and slide generation.Integrated tools like Arxiv API, Gemini LLM, and Puppeteer to generate downloadable PDF slide decks from academic papers",
       technologies: ["React.js", "TypeScript", "Node.js", "Tailwind CSS","MongoDB","Gemini API","Google Maps API"],
       links: {
-        github: "https://github.com/ArnabhS/crisis-info-platform",
-        live: "https://crisis-info-platform.vercel.app/"
+        github: "https://github.com/ArnabhS/ScholarAI",
+        live: "https://scholar-ai-tau.vercel.app/"
       }
     },
     {
